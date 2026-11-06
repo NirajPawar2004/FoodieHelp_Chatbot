@@ -1,0 +1,25 @@
+# Python virtual environments
+.venv/
+venv/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Environment and secrets
+.env
+
+# Application databases & vector stores
+data/foodiehelp.db
+data/chroma_db/
+*.db
+*.sqlite3
+
+# Logs & temp files
+*.log
+.DS_Store
+Thumbs.db
+

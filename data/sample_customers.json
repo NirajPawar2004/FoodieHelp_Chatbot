@@ -1,0 +1,23 @@
+[
+  {"customer_id": "CUST001", "name": "Aarav Sharma", "email": "aarav.sharma@example.com", "phone": "+91-9876543201", "address": "Flat 402, Sunshine Apartments, Indiranagar, Bengaluru"},
+  {"customer_id": "CUST002", "name": "Priya Patel", "email": "priya.patel@example.com", "phone": "+91-9876543202", "address": "B-12, Green Glen Layout, Bellandur, Bengaluru"},
+  {"customer_id": "CUST003", "name": "Rahul Verma", "email": "rahul.verma@example.com", "phone": "+91-9876543203", "address": "15/3, 4th Cross, Koramangala 5th Block, Bengaluru"},
+  {"customer_id": "CUST004", "name": "Ananya Iyer", "email": "ananya.iyer@example.com", "phone": "+91-9876543204", "address": "Plot 88, Palm Meadows, Whitefield, Bengaluru"},
+  {"customer_id": "CUST005", "name": "Rohan Mehta", "email": "rohan.mehta@example.com", "phone": "+91-9876543205", "address": "Tower C, 1104, Prestige Lakeside, Varthur, Bengaluru"},
+  {"customer_id": "CUST006", "name": "Sneha Nair", "email": "sneha.nair@example.com", "phone": "+91-9876543206", "address": "House 24, Defence Colony, Domlur, Bengaluru"},
+  {"customer_id": "CUST007", "name": "Vikram Joshi", "email": "vikram.joshi@example.com", "phone": "+91-9876543207", "address": "Villa 9, Silver Oak Enclave, Sarjapur Road, Bengaluru"},
+  {"customer_id": "CUST008", "name": "Pooja Sen", "email": "pooja.sen@example.com", "phone": "+91-9876543208", "address": "Apartment 3A, Lakeview Manor, Ulsoor, Bengaluru"},
+  {"customer_id": "CUST009", "name": "Aditya Roy", "email": "aditya.roy@example.com", "phone": "+91-9876543209", "address": "501, Horizon Heights, HSR Layout Sector 2, Bengaluru"},
+  {"customer_id": "CUST010", "name": "Kavita Rao", "email": "kavita.rao@example.com", "phone": "+91-9876543210", "address": "77, Cambridge Road, Halasuru, Bengaluru"},
+  {"customer_id": "CUST011", "name": "Deepak Gupta", "email": "deepak.gupta@example.com", "phone": "+91-9876543211", "address": "204, Orchid Bloom, JP Nagar 6th Phase, Bengaluru"},
+  {"customer_id": "CUST012", "name": "Neha Kulkarni", "email": "neha.kulkarni@example.com", "phone": "+91-9876543212", "address": "Flat 12, Gulmohar Residency, Malleshwaram, Bengaluru"},
+  {"customer_id": "CUST013", "name": "Suresh Kumar", "email": "suresh.kumar@example.com", "phone": "+91-9876543213", "address": "88/2, Outer Ring Road, Marathahalli, Bengaluru"},
+  {"customer_id": "CUST014", "name": "Tanvi Deshmukh", "email": "tanvi.deshmukh@example.com", "phone": "+91-9876543214", "address": "Penthouse 14, Sky City, Electronic City Phase 1, Bengaluru"},
+  {"customer_id": "CUST015", "name": "Manish Tiwari", "email": "manish.tiwari@example.com", "phone": "+91-9876543215", "address": "603, Royal Palms, Banashankari 3rd Stage, Bengaluru"},
+  {"customer_id": "CUST016", "name": "Ritu Bhatt", "email": "ritu.bhatt@example.com", "phone": "+91-9876543216", "address": "34, 1st Main, Rajajinagar, Bengaluru"},
+  {"customer_id": "CUST017", "name": "Arjun Kapoor", "email": "arjun.kapoor@example.com", "phone": "+91-9876543217", "address": "102, Windmills View, Brookefield, Bengaluru"},
+  {"customer_id": "CUST018", "name": "Divya Menon", "email": "divya.menon@example.com", "phone": "+91-9876543218", "address": "45, Lavelle Road, Shanthala Nagar, Bengaluru"},
+  {"customer_id": "CUST019", "name": "Kunal Malhotra", "email": "kunal.malhotra@example.com", "phone": "+91-9876543219", "address": "22, Richmond Town, Langford Gardens, Bengaluru"},
+  {"customer_id": "CUST020", "name": "Shalini Das", "email": "shalini.das@example.com", "phone": "+91-9876543220", "address": "701, Lotus Boulevard, BTM Layout 2nd Stage, Bengaluru"}
+]
+

@@ -1,0 +1,28 @@
+# FOODIEHELP WRONG ITEM RESOLUTION POLICY
+Document ID: POL-WRG-005
+Effective Date: January 1, 2026
+Version: 2.1
+
+1. DEFINITION
+A 'Wrong Item' issue occurs when an item delivered does not match what was ordered (e.g., received Veg Hakka Noodles instead of Chicken Biryani, or received a different beverage size, or violated explicit dietary dietary restrictions such as receiving a non-vegetarian dish when vegetarian was ordered).
+
+2. CRITICAL DIETARY VIOLATIONS
+- Dietary and religious safety are paramount. If a customer ordered a Vegetarian / Vegan / Halal / Jain meal and received a dish containing meat, egg, or animal derivatives:
+  * The incident is immediately treated as a High Priority / Critical defect.
+  * A 100% full order refund is initiated immediately.
+  * A formal complaint is lodged against the restaurant partner.
+  * An escalation ticket is generated for customer care review.
+
+3. GENERAL WRONG ITEM RESOLUTION
+- Time Limit: Issue must be reported within 24 hours of delivery.
+- Information Needed: Order ID, the item that was expected, and description of the item received.
+- Entitlement:
+  * Option A: 100% refund for the value of the misdelivered item.
+  * Option B: Free re-delivery of the correct item if kitchen is operational.
+  * The customer is not required to return the incorrect food item.
+
+4. REQUIRED NEXT ACTIONS
+- Provide order ID and describe the incorrect item received.
+- FoodieHelp support checks the invoice against restaurant catalog.
+- If verified, refund or replacement ticket is confirmed instantly.
+

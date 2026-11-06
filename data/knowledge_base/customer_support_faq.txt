@@ -1,0 +1,32 @@
+# FOODIEHELP CUSTOMER SUPPORT FREQUENTLY ASKED QUESTIONS (FAQ)
+Document ID: DOC-FAQ-006
+Effective Date: January 1, 2026
+Version: 4.0
+
+Q1: How do I check the status of my active food order?
+A1: You can check your order status at any time in the FoodieHelp app under 'My Orders' or simply ask our AI assistant by mentioning your Order ID (e.g., "What is the status of ORD1001?"). Our agent will tell you whether your order is Placed, Preparing, Out for Delivery, or Delivered, along with the estimated arrival time.
+
+Q2: Can I cancel my order after placing it?
+A2: Yes, cancellation depends on the kitchen stage:
+- 'Placed' stage: You can cancel with 100% full refund.
+- 'Preparing' stage: You can cancel with a 50% refund (50% fee retained for food already cooking).
+- 'Out for Delivery' or 'Delivered': Cancellation is not permitted because the rider is en route or order is completed.
+
+Q3: What should I do if an item is missing from my delivery?
+A3: If an item is missing, inform us within 24 hours of delivery. We will issue a 100% refund for the missing item back to your original payment mode or FoodiePay Wallet, or arrange redelivery if preferred.
+
+Q4: What if I received the wrong food or a dietary violation (meat in veg)?
+A4: Please report the error within 24 hours. If it is a regular wrong item, we will refund 100% of that item's price. If it is a severe dietary violation (non-veg delivered in place of veg), we issue a 100% full order refund and escalate the complaint immediately.
+
+Q5: How long do refunds take to reflect in my bank account?
+A5: Refunds to FoodiePay Wallet are instant (under 15 minutes). Refunds to UPI accounts take 24 to 48 hours. Credit card, debit card, and net banking refunds take 3 to 5 business days depending on your bank.
+
+Q6: How can I speak to a human customer care executive?
+A6: If our AI assistant cannot resolve your concern or if your issue is complex, you can request human escalation at any moment. Our agent will immediately create an Escalated Support Ticket (Priority: High) with a unique Ticket ID, and our dedicated human support team will contact you.
+
+Q7: What payment methods does FoodieHelp accept?
+A7: FoodieHelp supports UPI (Google Pay, PhonePe, Paytm), Credit Cards (Visa, MasterCard, RuPay), Debit Cards, Net Banking, FoodiePay Wallet, and Cash on Delivery (COD) on eligible restaurants.
+
+Q8: Can I change my delivery address after ordering?
+A8: Address changes are only allowed while the order is in 'Placed' or early 'Preparing' stage and within 1 km of the original address. Once 'Out for Delivery', the delivery address cannot be changed.
+

@@ -1,0 +1,42 @@
+# FOODIEHELP CUSTOMER REFUND POLICY
+Document ID: POL-REF-001
+Effective Date: January 1, 2026
+Version: 2.4
+
+1. OVERVIEW & SCOPE
+At FoodieHelp, we are committed to delivering fresh, accurate, and delightful meals. When expectations are not met due to restaurant mistakes, delivery delays, missing items, or transaction errors, customers may request a refund under the rules outlined below. All refunds are processed in the original mode of payment or credited instantly to FoodiePay Wallet based on customer preference.
+
+2. REFUND ELIGIBILITY CRITERIA
+A customer is eligible for a full or partial refund under the following explicit conditions:
+
+A. Missing or Incomplete Items:
+- If one or more items from an order are missing, the customer is eligible for a 100% refund for the specific missing item(s), plus applicable pro-rated taxes.
+- Requests must be submitted within 24 hours of delivery.
+
+B. Wrong Item Received:
+- If a restaurant delivers an entirely different dish or item, the customer is entitled to a 100% refund for the wrong item or a complimentary replacement redelivery.
+- Photographic evidence or detailed description must be submitted within 24 hours of delivery.
+
+C. Spoiled, Stale, or Quality Defect:
+- If food delivered is unhygienic, uncooked, burnt, spilled excessively, or stale, customers may be granted a full or partial order refund after review by our quality team.
+- Must be reported within 4 hours of delivery.
+
+D. Order Cancellation by Customer:
+- Order cancelled while status is 'Placed' (before restaurant begins food preparation): 100% full refund of total order amount.
+- Order cancelled while status is 'Preparing' (restaurant has accepted and started cooking): 50% partial refund of total order amount to compensate for ingredients already utilized.
+- Order cancelled while status is 'Out for Delivery' or 'Delivered': 0% refund. Cancellations are strictly not permitted once the rider is on the way.
+
+E. Failed or Duplicate Payment Transactions:
+- If an order transaction debited funds twice or the order failed to generate while money was deducted, a 100% refund is initiated automatically within 3 to 5 business days.
+
+3. REFUND TIMELINES
+- FoodiePay Wallet: Instant (within 15 minutes).
+- UPI Payments: 24 to 48 hours.
+- Credit / Debit Cards & Net Banking: 3 to 5 business days, subject to issuing bank processing schedules.
+
+4. NON-REFUNDABLE SCENARIOS
+- Customer provided an incorrect or unreachable delivery address.
+- Customer was unavailable at the phone or door when the delivery partner arrived (after 10 minutes waiting window).
+- Requests submitted after 24 hours of delivery.
+- Subjective taste preferences (e.g., "dish was less spicy than expected") where the restaurant followed the standard recipe.
+

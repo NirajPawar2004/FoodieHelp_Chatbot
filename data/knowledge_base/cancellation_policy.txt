@@ -1,0 +1,41 @@
+# FOODIEHELP ORDER CANCELLATION POLICY
+Document ID: POL-CAN-002
+Effective Date: January 1, 2026
+Version: 3.1
+
+1. CANCELLATION ELIGIBILITY BY ORDER STAGES
+FoodieHelp operates on real-time kitchen orchestration. Because restaurant kitchens prepare fresh food upon receiving orders, order cancellation is restricted based on the order progress stage:
+
+Stage 1: Order Status = 'Placed'
+- The order has been submitted by the customer but has not yet been accepted by the restaurant kitchen.
+- Cancellation Status: PERMITTED.
+- Refund Entitlement: 100% full refund of the order amount, delivery charges, and taxes.
+- Action: Order is immediately cancelled and refund initiated.
+
+Stage 2: Order Status = 'Preparing'
+- The restaurant kitchen has accepted the order and began food preparation.
+- Cancellation Status: PERMITTED WITH COMPENSATION DEDUCTION.
+- Refund Entitlement: 50% partial refund of the order amount. A 50% kitchen preparation fee is retained to cover food waste and restaurant costs.
+- Action: Customer confirmation is strictly required after displaying the 50% fee notice before finalizing cancellation.
+
+Stage 3: Order Status = 'Out for Delivery'
+- The meal is packed and picked up by our delivery partner, who is en route to the customer location.
+- Cancellation Status: NOT PERMITTED.
+- Refund Entitlement: 0% refund. The rider is actively en route and costs have been fully incurred.
+- Action: Customer must receive the delivery.
+
+Stage 4: Order Status = 'Delivered'
+- The order has already reached the customer.
+- Cancellation Status: NOT PERMITTED (Order is already completed). Refer to Refund or Support policies for issues.
+
+Stage 5: Order Status = 'Cancelled'
+- Order was previously cancelled.
+- Cancellation Status: NOT APPLICABLE (Already cancelled).
+
+2. CANCELLATION PROCEDURES
+- Customers must verify their order ID and customer ID.
+- The AI Support Agent or Support Executive will inspect the live order status from the database.
+- The system explains the policy and refund amount associated with the current stage.
+- The customer must provide EXPLICIT CONFIRMATION (e.g. typing "confirm cancel", "yes", or selecting confirmation) before any change is written to the database.
+- Once confirmed, the order status changes to 'Cancelled', cancellation timestamp is saved, and a cancellation receipt is generated.
+

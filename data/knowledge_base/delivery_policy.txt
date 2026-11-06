@@ -1,0 +1,22 @@
+# FOODIEHELP DELIVERY AND SERVICE COMMITMENT POLICY
+Document ID: POL-DEL-003
+Effective Date: January 1, 2026
+Version: 1.8
+
+1. DELIVERY WINDOWS & ESTIMATIONS
+- Estimated Delivery Time (EDT) is calculated using restaurant preparation times, real-time traffic conditions, and delivery partner availability.
+- Typical delivery time ranges from 25 to 45 minutes for standard city radius (within 7 km).
+- In cases of extreme weather (monsoon, heavy storms) or peak rush hours (lunch 1:00 PM - 2:30 PM, dinner 8:00 PM - 10:00 PM), estimated delivery times may be extended by 15-20 minutes.
+
+2. ON-TIME DELIVERY GUARANTEE
+- If a delivery arrives more than 30 minutes after the maximum Estimated Delivery Time due to our delivery network (and not customer unavailability), the customer is entitled to a Late Delivery Compensation Coupon of INR 100 or 10% credit towards their next order.
+- Severe weather and declared municipal emergencies are exempt from compensation.
+
+3. CONTACTLESS & SPECIAL INSTRUCTION DELIVERY
+- Customers may request 'Contactless Delivery' at checkout. The delivery partner will place the parcel at the designated doorstep or security gate and notify the customer via notification or call.
+- The delivery partner will attempt to call the customer a maximum of 3 times over a 10-minute waiting window. If the customer does not respond within 10 minutes, the parcel will be marked as 'Undelivered due to Customer Unreachable', and no refund will be provided.
+
+4. WRONG OR INACCURATE ADDRESS
+- Customers are responsible for providing precise GPS pin drops, building names, and apartment numbers.
+- Once an order is 'Out for Delivery', the delivery address cannot be changed to a different zone exceeding 1 km from the original location.
+

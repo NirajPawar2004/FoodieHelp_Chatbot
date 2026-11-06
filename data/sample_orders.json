@@ -1,0 +1,1536 @@
+[
+  {
+    "order_id": "ORD1001",
+    "customer_id": "CUST001",
+    "customer_name": "Aarav Sharma",
+    "restaurant_name": "Spice Route Kitchen",
+    "ordered_items": [
+      {
+        "item_name": "Butter Chicken",
+        "quantity": 1,
+        "price": 189.01,
+        "subtotal": 189.01
+      },
+      {
+        "item_name": "Jeera Rice",
+        "quantity": 1,
+        "price": 140.23,
+        "subtotal": 140.23
+      },
+      {
+        "item_name": "Dal Makhani",
+        "quantity": 1,
+        "price": 333.61,
+        "subtotal": 333.61
+      }
+    ],
+    "order_amount": 662.85,
+    "order_date_time": "2026-11-05 22:31:23",
+    "payment_method": "Credit Card",
+    "order_status": "Placed",
+    "estimated_delivery_time": "21 mins",
+    "delivery_address": "Flat 402, Sunshine Apartments, Indiranagar, Bengaluru",
+    "cancellation_reason": null,
+    "cancelled_at": null
+  },
+  {
+    "order_id": "ORD1002",
+    "customer_id": "CUST002",
+    "customer_name": "Priya Patel",
+    "restaurant_name": "Biryani Central",
+    "ordered_items": [
+      {
+        "item_name": "Gulab Jamun",
+        "quantity": 2,
+        "price": 161.58,
+        "subtotal": 323.16
+      },
+      {
+        "item_name": "Hyderabadi Chicken Biryani",
+        "quantity": 2,
+        "price": 169.36,
+        "subtotal": 338.72
+      },
+      {
+        "item_name": "Mirchi Ka Salan",
+        "quantity": 1,
+        "price": 381.39,
+        "subtotal": 381.39
+      }
+    ],
+    "order_amount": 1043.27,
+    "order_date_time": "2026-11-05 22:15:23",
+    "payment_method": "Credit Card",
+    "order_status": "Placed",
+    "estimated_delivery_time": "23 mins",
+    "delivery_address": "B-12, Green Glen Layout, Bellandur, Bengaluru",
+    "cancellation_reason": null,
+    "cancelled_at": null
+  },
+  {
+    "order_id": "ORD1003",
+    "customer_id": "CUST003",
+    "customer_name": "Rahul Verma",
+    "restaurant_name": "The Pizza Factory",
+    "ordered_items": [
+      {
+        "item_name": "Pepperoni Supreme",
+        "quantity": 2,
+        "price": 126.8,
+        "subtotal": 253.6
+      }
+    ],
+    "order_amount": 253.6,
+    "order_date_time": "2026-11-05 22:14:23",
+    "payment_method": "Debit Card",
+    "order_status": "Preparing",
+    "estimated_delivery_time": "34 mins",
+    "delivery_address": "15/3, 4th Cross, Koramangala 5th Block, Bengaluru",
+    "cancellation_reason": null,
+    "cancelled_at": null
+  },
+  {
+    "order_id": "ORD1004",
+    "customer_id": "CUST004",
+    "customer_name": "Ananya Iyer",
+    "restaurant_name": "Green Bowl Salads",
+    "ordered_items": [
+      {
+        "item_name": "Fresh Green Smoothie",
+        "quantity": 2,
+        "price": 283.04,
+        "subtotal": 566.08
+      }
+    ],
+    "order_amount": 566.08,
+    "order_date_time": "2026-11-05 21:56:23",
+    "payment_method": "Debit Card",
+    "order_status": "Out for Delivery",
+    "estimated_delivery_time": "34 mins",
+    "delivery_address": "Plot 88, Palm Meadows, Whitefield, Bengaluru",
+    "cancellation_reason": null,
+    "cancelled_at": null
+  },
+  {
+    "order_id": "ORD1005",
+    "customer_id": "CUST005",
+    "customer_name": "Rohan Mehta",
+    "restaurant_name": "Dosa Corner",
+    "ordered_items": [
+      {
+        "item_name": "Ghee Roast Dosa",
+        "quantity": 2,
+        "price": 328.05,
+        "subtotal": 656.1
+      },
+      {
+        "item_name": "Masala Dosa",
+        "quantity": 1,
+        "price": 444.68,
+        "subtotal": 444.68
+      },
+      {
+        "item_name": "Filter Coffee",
+        "quantity": 2,
+        "price": 401.93,
+        "subtotal": 803.86
+      }
+    ],
+    "order_amount": 1904.64,
+    "order_date_time": "2026-11-03 07:01:23",
+    "payment_method": "Debit Card",
+    "order_status": "Cancelled",
+    "estimated_delivery_time": "N/A",
+    "delivery_address": "Tower C, 1104, Prestige Lakeside, Varthur, Bengaluru",
+    "cancellation_reason": "Customer requested cancellation before food preparation.",
+    "cancelled_at": "2026-11-03 07:06:23"
+  },
+  {
+    "order_id": "ORD1006",
+    "customer_id": "CUST006",
+    "customer_name": "Sneha Nair",
+    "restaurant_name": "Dragon Wok Asian Bistro",
+    "ordered_items": [
+      {
+        "item_name": "Veg Fried Rice",
+        "quantity": 2,
+        "price": 217.9,
+        "subtotal": 435.8
+      }
+    ],
+    "order_amount": 435.8,
+    "order_date_time": "2026-11-05 02:01:23",
+    "payment_method": "Credit Card",
+    "order_status": "Delivered",
+    "estimated_delivery_time": "Delivered",
+    "delivery_address": "House 24, Defence Colony, Domlur, Bengaluru",
+    "cancellation_reason": null,
+    "cancelled_at": null
+  },
+  {
+    "order_id": "ORD1007",
+    "customer_id": "CUST007",
+    "customer_name": "Vikram Joshi",
+    "restaurant_name": "Burger Haven",
+    "ordered_items": [
+      {
+        "item_name": "Crispy Chicken Burger",
+        "quantity": 1,
+        "price": 226.6,
+        "subtotal": 226.6
+      },
+      {
+        "item_name": "Onion Rings",
+        "quantity": 1,
+        "price": 336.46,
+        "subtotal": 336.46
+      },
+      {
+        "item_name": "Vanilla Milkshake",
+        "quantity": 1,
+        "price": 172.46,
+        "subtotal": 172.46
+      }
+    ],
+    "order_amount": 735.52,
+    "order_date_time": "2026-11-03 09:24:23",
+    "payment_method": "UPI",
+    "order_status": "Delivered",
+    "estimated_delivery_time": "Delivered",
+    "delivery_address": "Villa 9, Silver Oak Enclave, Sarjapur Road, Bengaluru",
+    "cancellation_reason": null,
+    "cancelled_at": null
+  },
+  {
+    "order_id": "ORD1008",
+    "customer_id": "CUST008",
+    "customer_name": "Pooja Sen",
+    "restaurant_name": "Sweet Tooth Desserts",
+    "ordered_items": [
+      {
+        "item_name": "Red Velvet Cupcake",
+        "quantity": 2,
+        "price": 166.55,
+        "subtotal": 333.1
+      }
+    ],
+    "order_amount": 333.1,
+    "order_date_time": "2026-11-05 22:27:23",
+    "payment_method": "Credit Card",
+    "order_status": "Placed",
+    "estimated_delivery_time": "23 mins",
+    "delivery_address": "Apartment 3A, Lakeview Manor, Ulsoor, Bengaluru",
+    "cancellation_reason": null,
+    "cancelled_at": null
+  },
+  {
+    "order_id": "ORD1009",
+    "customer_id": "CUST009",
+    "customer_name": "Aditya Roy",
+    "restaurant_name": "Spice Route Kitchen",
+    "ordered_items": [
+      {
+        "item_name": "Jeera Rice",
+        "quantity": 2,
+        "price": 284.03,
+        "subtotal": 568.06
+      }
+    ],
+    "order_amount": 568.06,
+    "order_date_time": "2026-11-05 22:28:23",
+    "payment_method": "Cash on Delivery",
+    "order_status": "Preparing",
+    "estimated_delivery_time": "31 mins",
+    "delivery_address": "501, Horizon Heights, HSR Layout Sector 2, Bengaluru",
+    "cancellation_reason": null,
+    "cancelled_at": null
+  },
+  {
+    "order_id": "ORD1010",
+    "customer_id": "CUST010",
+    "customer_name": "Kavita Rao",
+    "restaurant_name": "Biryani Central",
+    "ordered_items": [
+      {
+        "item_name": "Hyderabadi Chicken Biryani",
+        "quantity": 1,
+        "price": 400.0,
+        "subtotal": 400.0
+      }
+    ],
+    "order_amount": 400.0,
+    "order_date_time": "2026-11-05 21:58:23",
+    "payment_method": "Cash on Delivery",
+    "order_status": "Out for Delivery",
+    "estimated_delivery_time": "17 mins",
+    "delivery_address": "77, Cambridge Road, Halasuru, Bengaluru",
+    "cancellation_reason": null,
+    "cancelled_at": null
+  },
+  {
+    "order_id": "ORD1011",
+    "customer_id": "CUST011",
+    "customer_name": "Deepak Gupta",
+    "restaurant_name": "The Pizza Factory",
+    "ordered_items": [
+      {
+        "item_name": "Choco Lava Cake",
+        "quantity": 1,
+        "price": 280.48,
+        "subtotal": 280.48
+      },
+      {
+        "item_name": "Garlic Breadsticks",
+        "quantity": 1,
+        "price": 334.9,
+        "subtotal": 334.9
+      }
+    ],
+    "order_amount": 615.38,
+    "order_date_time": "2026-11-03 01:20:23",
+    "payment_method": "UPI",
+    "order_status": "Delivered",
+    "estimated_delivery_time": "Delivered",
+    "delivery_address": "204, Orchid Bloom, JP Nagar 6th Phase, Bengaluru",
+    "cancellation_reason": null,
+    "cancelled_at": null
+  },
+  {
+    "order_id": "ORD1012",
+    "customer_id": "CUST012",
+    "customer_name": "Neha Kulkarni",
+    "restaurant_name": "Green Bowl Salads",
+    "ordered_items": [
+      {
+        "item_name": "Fresh Green Smoothie",
+        "quantity": 2,
+        "price": 253.34,
+        "subtotal": 506.68
+      },
+      {
+        "item_name": "Mediterranean Quinoa Bowl",
+        "quantity": 1,
+        "price": 439.88,
+        "subtotal": 439.88
+      }
+    ],
+    "order_amount": 946.56,
+    "order_date_time": "2026-11-05 01:22:23",
+    "payment_method": "FoodiePay Wallet",
+    "order_status": "Cancelled",
+    "estimated_delivery_time": "N/A",
+    "delivery_address": "Flat 12, Gulmohar Residency, Malleshwaram, Bengaluru",
+    "cancellation_reason": "Customer requested cancellation before food preparation.",
+    "cancelled_at": "2026-11-05 01:27:23"
+  },
+  {
+    "order_id": "ORD1013",
+    "customer_id": "CUST013",
+    "customer_name": "Suresh Kumar",
+    "restaurant_name": "Dosa Corner",
+    "ordered_items": [
+      {
+        "item_name": "Ghee Roast Dosa",
+        "quantity": 1,
+        "price": 364.5,
+        "subtotal": 364.5
+      },
+      {
+        "item_name": "Upma",
+        "quantity": 2,
+        "price": 305.62,
+        "subtotal": 611.24
+      },
+      {
+        "item_name": "Filter Coffee",
+        "quantity": 2,
+        "price": 97.01,
+        "subtotal": 194.02
+      }
+    ],
+    "order_amount": 1169.76,
+    "order_date_time": "2026-11-03 14:38:23",
+    "payment_method": "Credit Card",
+    "order_status": "Delivered",
+    "estimated_delivery_time": "Delivered",
+    "delivery_address": "88/2, Outer Ring Road, Marathahalli, Bengaluru",
+    "cancellation_reason": null,
+    "cancelled_at": null
+  },
+  {
+    "order_id": "ORD1014",
+    "customer_id": "CUST014",
+    "customer_name": "Tanvi Deshmukh",
+    "restaurant_name": "Dragon Wok Asian Bistro",
+    "ordered_items": [
+      {
+        "item_name": "Kung Pao Chicken",
+        "quantity": 1,
+        "price": 264.96,
+        "subtotal": 264.96
+      },
+      {
+        "item_name": "Spring Rolls",
+        "quantity": 1,
+        "price": 442.07,
+        "subtotal": 442.07
+      },
+      {
+        "item_name": "Veg Fried Rice",
+        "quantity": 2,
+        "price": 136.22,
+        "subtotal": 272.44
+      }
+    ],
+    "order_amount": 979.47,
+    "order_date_time": "2026-11-04 13:08:23",
+    "payment_method": "FoodiePay Wallet",
+    "order_status": "Delivered",
+    "estimated_delivery_time": "Delivered",
+    "delivery_address": "Penthouse 14, Sky City, Electronic City Phase 1, Bengaluru",
+    "cancellation_reason": null,
+    "cancelled_at": null
+  },
+  {
+    "order_id": "ORD1015",
+    "customer_id": "CUST015",
+    "customer_name": "Manish Tiwari",
+    "restaurant_name": "Burger Haven",
+    "ordered_items": [
+      {
+        "item_name": "Crispy Chicken Burger",
+        "quantity": 2,
+        "price": 346.66,
+        "subtotal": 693.32
+      },
+      {
+        "item_name": "Onion Rings",
+        "quantity": 2,
+        "price": 448.25,
+        "subtotal": 896.5
+      }
+    ],
+    "order_amount": 1589.82,
+    "order_date_time": "2026-11-05 22:29:23",
+    "payment_method": "Credit Card",
+    "order_status": "Placed",
+    "estimated_delivery_time": "22 mins",
+    "delivery_address": "603, Royal Palms, Banashankari 3rd Stage, Bengaluru",
+    "cancellation_reason": null,
+    "cancelled_at": null
+  },
+  {
+    "order_id": "ORD1016",
+    "customer_id": "CUST016",
+    "customer_name": "Ritu Bhatt",
+    "restaurant_name": "Sweet Tooth Desserts",
+    "ordered_items": [
+      {
+        "item_name": "Red Velvet Cupcake",
+        "quantity": 1,
+        "price": 97.57,
+        "subtotal": 97.57
+      }
+    ],
+    "order_amount": 97.57,
+    "order_date_time": "2026-11-04 21:37:23",
+    "payment_method": "UPI",
+    "order_status": "Delivered",
+    "estimated_delivery_time": "Delivered",
+    "delivery_address": "34, 1st Main, Rajajinagar, Bengaluru",
+    "cancellation_reason": null,
+    "cancelled_at": null
+  },
+  {
+    "order_id": "ORD1017",
+    "customer_id": "CUST017",
+    "customer_name": "Arjun Kapoor",
+    "restaurant_name": "Spice Route Kitchen",
+    "ordered_items": [
+      {
+        "item_name": "Butter Chicken",
+        "quantity": 2,
+        "price": 415.95,
+        "subtotal": 831.9
+      }
+    ],
+    "order_amount": 831.9,
+    "order_date_time": "2026-11-05 05:26:23",
+    "payment_method": "Debit Card",
+    "order_status": "Delivered",
+    "estimated_delivery_time": "Delivered",
+    "delivery_address": "102, Windmills View, Brookefield, Bengaluru",
+    "cancellation_reason": null,
+    "cancelled_at": null
+  },
+  {
+    "order_id": "ORD1018",
+    "customer_id": "CUST018",
+    "customer_name": "Divya Menon",
+    "restaurant_name": "Biryani Central",
+    "ordered_items": [
+      {
+        "item_name": "Raita",
+        "quantity": 2,
+        "price": 137.63,
+        "subtotal": 275.26
+      },
+      {
+        "item_name": "Mutton Dum Biryani",
+        "quantity": 2,
+        "price": 177.48,
+        "subtotal": 354.96
+      },
+      {
+        "item_name": "Mirchi Ka Salan",
+        "quantity": 1,
+        "price": 380.7,
+        "subtotal": 380.7
+      }
+    ],
+    "order_amount": 1010.92,
+    "order_date_time": "2026-11-05 17:59:23",
+    "payment_method": "Cash on Delivery",
+    "order_status": "Delivered",
+    "estimated_delivery_time": "Delivered",
+    "delivery_address": "45, Lavelle Road, Shanthala Nagar, Bengaluru",
+    "cancellation_reason": null,
+    "cancelled_at": null
+  },
+  {
+    "order_id": "ORD1019",
+    "customer_id": "CUST019",
+    "customer_name": "Kunal Malhotra",
+    "restaurant_name": "The Pizza Factory",
+    "ordered_items": [
+      {
+        "item_name": "Garlic Breadsticks",
+        "quantity": 1,
+        "price": 258.13,
+        "subtotal": 258.13
+      },
+      {
+        "item_name": "Choco Lava Cake",
+        "quantity": 1,
+        "price": 332.41,
+        "subtotal": 332.41
+      }
+    ],
+    "order_amount": 590.54,
+    "order_date_time": "2026-11-05 08:55:23",
+    "payment_method": "Debit Card",
+    "order_status": "Delivered",
+    "estimated_delivery_time": "Delivered",
+    "delivery_address": "22, Richmond Town, Langford Gardens, Bengaluru",
+    "cancellation_reason": null,
+    "cancelled_at": null
+  },
+  {
+    "order_id": "ORD1020",
+    "customer_id": "CUST020",
+    "customer_name": "Shalini Das",
+    "restaurant_name": "Green Bowl Salads",
+    "ordered_items": [
+      {
+        "item_name": "Grilled Caesar Salad",
+        "quantity": 2,
+        "price": 158.97,
+        "subtotal": 317.94
+      }
+    ],
+    "order_amount": 317.94,
+    "order_date_time": "2026-11-05 22:19:23",
+    "payment_method": "Credit Card",
+    "order_status": "Preparing",
+    "estimated_delivery_time": "29 mins",
+    "delivery_address": "701, Lotus Boulevard, BTM Layout 2nd Stage, Bengaluru",
+    "cancellation_reason": null,
+    "cancelled_at": null
+  },
+  {
+    "order_id": "ORD1021",
+    "customer_id": "CUST001",
+    "customer_name": "Aarav Sharma",
+    "restaurant_name": "Dosa Corner",
+    "ordered_items": [
+      {
+        "item_name": "Filter Coffee",
+        "quantity": 1,
+        "price": 380.89,
+        "subtotal": 380.89
+      }
+    ],
+    "order_amount": 380.89,
+    "order_date_time": "2026-11-05 01:07:23",
+    "payment_method": "UPI",
+    "order_status": "Delivered",
+    "estimated_delivery_time": "Delivered",
+    "delivery_address": "Flat 402, Sunshine Apartments, Indiranagar, Bengaluru",
+    "cancellation_reason": null,
+    "cancelled_at": null
+  },
+  {
+    "order_id": "ORD1022",
+    "customer_id": "CUST002",
+    "customer_name": "Priya Patel",
+    "restaurant_name": "Dragon Wok Asian Bistro",
+    "ordered_items": [
+      {
+        "item_name": "Chili Garlic Noodles",
+        "quantity": 2,
+        "price": 149.87,
+        "subtotal": 299.74
+      }
+    ],
+    "order_amount": 299.74,
+    "order_date_time": "2026-11-02 14:46:23",
+    "payment_method": "Cash on Delivery",
+    "order_status": "Delivered",
+    "estimated_delivery_time": "Delivered",
+    "delivery_address": "B-12, Green Glen Layout, Bellandur, Bengaluru",
+    "cancellation_reason": null,
+    "cancelled_at": null
+  },
+  {
+    "order_id": "ORD1023",
+    "customer_id": "CUST003",
+    "customer_name": "Rahul Verma",
+    "restaurant_name": "Burger Haven",
+    "ordered_items": [
+      {
+        "item_name": "Crispy Chicken Burger",
+        "quantity": 2,
+        "price": 226.43,
+        "subtotal": 452.86
+      }
+    ],
+    "order_amount": 452.86,
+    "order_date_time": "2026-11-03 07:23:23",
+    "payment_method": "Cash on Delivery",
+    "order_status": "Delivered",
+    "estimated_delivery_time": "Delivered",
+    "delivery_address": "15/3, 4th Cross, Koramangala 5th Block, Bengaluru",
+    "cancellation_reason": null,
+    "cancelled_at": null
+  },
+  {
+    "order_id": "ORD1024",
+    "customer_id": "CUST004",
+    "customer_name": "Ananya Iyer",
+    "restaurant_name": "Sweet Tooth Desserts",
+    "ordered_items": [
+      {
+        "item_name": "Salted Caramel Tart",
+        "quantity": 1,
+        "price": 196.81,
+        "subtotal": 196.81
+      },
+      {
+        "item_name": "Belgian Chocolate Waffle",
+        "quantity": 1,
+        "price": 298.5,
+        "subtotal": 298.5
+      },
+      {
+        "item_name": "Red Velvet Cupcake",
+        "quantity": 1,
+        "price": 359.27,
+        "subtotal": 359.27
+      }
+    ],
+    "order_amount": 854.58,
+    "order_date_time": "2026-11-05 03:11:23",
+    "payment_method": "FoodiePay Wallet",
+    "order_status": "Delivered",
+    "estimated_delivery_time": "Delivered",
+    "delivery_address": "Plot 88, Palm Meadows, Whitefield, Bengaluru",
+    "cancellation_reason": null,
+    "cancelled_at": null
+  },
+  {
+    "order_id": "ORD1025",
+    "customer_id": "CUST005",
+    "customer_name": "Rohan Mehta",
+    "restaurant_name": "Spice Route Kitchen",
+    "ordered_items": [
+      {
+        "item_name": "Garlic Naan",
+        "quantity": 1,
+        "price": 118.84,
+        "subtotal": 118.84
+      },
+      {
+        "item_name": "Butter Chicken",
+        "quantity": 1,
+        "price": 114.67,
+        "subtotal": 114.67
+      },
+      {
+        "item_name": "Dal Makhani",
+        "quantity": 1,
+        "price": 333.08,
+        "subtotal": 333.08
+      }
+    ],
+    "order_amount": 566.59,
+    "order_date_time": "2026-11-05 22:00:23",
+    "payment_method": "FoodiePay Wallet",
+    "order_status": "Out for Delivery",
+    "estimated_delivery_time": "22 mins",
+    "delivery_address": "Tower C, 1104, Prestige Lakeside, Varthur, Bengaluru",
+    "cancellation_reason": null,
+    "cancelled_at": null
+  },
+  {
+    "order_id": "ORD1026",
+    "customer_id": "CUST006",
+    "customer_name": "Sneha Nair",
+    "restaurant_name": "Biryani Central",
+    "ordered_items": [
+      {
+        "item_name": "Hyderabadi Chicken Biryani",
+        "quantity": 2,
+        "price": 326.65,
+        "subtotal": 653.3
+      },
+      {
+        "item_name": "Gulab Jamun",
+        "quantity": 1,
+        "price": 426.49,
+        "subtotal": 426.49
+      },
+      {
+        "item_name": "Mutton Dum Biryani",
+        "quantity": 2,
+        "price": 331.1,
+        "subtotal": 662.2
+      }
+    ],
+    "order_amount": 1741.99,
+    "order_date_time": "2026-11-04 13:16:23",
+    "payment_method": "Credit Card",
+    "order_status": "Delivered",
+    "estimated_delivery_time": "Delivered",
+    "delivery_address": "House 24, Defence Colony, Domlur, Bengaluru",
+    "cancellation_reason": null,
+    "cancelled_at": null
+  },
+  {
+    "order_id": "ORD1027",
+    "customer_id": "CUST007",
+    "customer_name": "Vikram Joshi",
+    "restaurant_name": "The Pizza Factory",
+    "ordered_items": [
+      {
+        "item_name": "Pepperoni Supreme",
+        "quantity": 1,
+        "price": 424.45,
+        "subtotal": 424.45
+      },
+      {
+        "item_name": "Garlic Breadsticks",
+        "quantity": 1,
+        "price": 93.35,
+        "subtotal": 93.35
+      },
+      {
+        "item_name": "Farmhouse Veggie Pizza",
+        "quantity": 1,
+        "price": 116.37,
+        "subtotal": 116.37
+      }
+    ],
+    "order_amount": 634.17,
+    "order_date_time": "2026-11-03 16:42:23",
+    "payment_method": "Debit Card",
+    "order_status": "Delivered",
+    "estimated_delivery_time": "Delivered",
+    "delivery_address": "Villa 9, Silver Oak Enclave, Sarjapur Road, Bengaluru",
+    "cancellation_reason": null,
+    "cancelled_at": null
+  },
+  {
+    "order_id": "ORD1028",
+    "customer_id": "CUST008",
+    "customer_name": "Pooja Sen",
+    "restaurant_name": "Green Bowl Salads",
+    "ordered_items": [
+      {
+        "item_name": "Grilled Caesar Salad",
+        "quantity": 1,
+        "price": 223.03,
+        "subtotal": 223.03
+      }
+    ],
+    "order_amount": 223.03,
+    "order_date_time": "2026-11-02 03:56:23",
+    "payment_method": "Debit Card",
+    "order_status": "Delivered",
+    "estimated_delivery_time": "Delivered",
+    "delivery_address": "Apartment 3A, Lakeview Manor, Ulsoor, Bengaluru",
+    "cancellation_reason": null,
+    "cancelled_at": null
+  },
+  {
+    "order_id": "ORD1029",
+    "customer_id": "CUST009",
+    "customer_name": "Aditya Roy",
+    "restaurant_name": "Dosa Corner",
+    "ordered_items": [
+      {
+        "item_name": "Upma",
+        "quantity": 2,
+        "price": 384.16,
+        "subtotal": 768.32
+      },
+      {
+        "item_name": "Masala Dosa",
+        "quantity": 1,
+        "price": 425.43,
+        "subtotal": 425.43
+      },
+      {
+        "item_name": "Idli Vada Combo",
+        "quantity": 1,
+        "price": 428.01,
+        "subtotal": 428.01
+      }
+    ],
+    "order_amount": 1621.76,
+    "order_date_time": "2026-11-03 17:45:23",
+    "payment_method": "UPI",
+    "order_status": "Delivered",
+    "estimated_delivery_time": "Delivered",
+    "delivery_address": "501, Horizon Heights, HSR Layout Sector 2, Bengaluru",
+    "cancellation_reason": null,
+    "cancelled_at": null
+  },
+  {
+    "order_id": "ORD1030",
+    "customer_id": "CUST010",
+    "customer_name": "Kavita Rao",
+    "restaurant_name": "Dragon Wok Asian Bistro",
+    "ordered_items": [
+      {
+        "item_name": "Spring Rolls",
+        "quantity": 1,
+        "price": 191.43,
+        "subtotal": 191.43
+      },
+      {
+        "item_name": "Chili Garlic Noodles",
+        "quantity": 1,
+        "price": 348.34,
+        "subtotal": 348.34
+      },
+      {
+        "item_name": "Dim Sum Platter",
+        "quantity": 2,
+        "price": 337.5,
+        "subtotal": 675.0
+      }
+    ],
+    "order_amount": 1214.77,
+    "order_date_time": "2026-11-02 12:44:23",
+    "payment_method": "UPI",
+    "order_status": "Cancelled",
+    "estimated_delivery_time": "N/A",
+    "delivery_address": "77, Cambridge Road, Halasuru, Bengaluru",
+    "cancellation_reason": "Customer requested cancellation before food preparation.",
+    "cancelled_at": "2026-11-02 12:49:23"
+  },
+  {
+    "order_id": "ORD1031",
+    "customer_id": "CUST011",
+    "customer_name": "Deepak Gupta",
+    "restaurant_name": "Burger Haven",
+    "ordered_items": [
+      {
+        "item_name": "Vanilla Milkshake",
+        "quantity": 1,
+        "price": 388.57,
+        "subtotal": 388.57
+      }
+    ],
+    "order_amount": 388.57,
+    "order_date_time": "2026-11-05 10:52:23",
+    "payment_method": "Credit Card",
+    "order_status": "Delivered",
+    "estimated_delivery_time": "Delivered",
+    "delivery_address": "204, Orchid Bloom, JP Nagar 6th Phase, Bengaluru",
+    "cancellation_reason": null,
+    "cancelled_at": null
+  },
+  {
+    "order_id": "ORD1032",
+    "customer_id": "CUST012",
+    "customer_name": "Neha Kulkarni",
+    "restaurant_name": "Sweet Tooth Desserts",
+    "ordered_items": [
+      {
+        "item_name": "Red Velvet Cupcake",
+        "quantity": 2,
+        "price": 288.6,
+        "subtotal": 577.2
+      },
+      {
+        "item_name": "Belgian Chocolate Waffle",
+        "quantity": 1,
+        "price": 291.93,
+        "subtotal": 291.93
+      },
+      {
+        "item_name": "Tiramisu Slice",
+        "quantity": 1,
+        "price": 117.09,
+        "subtotal": 117.09
+      }
+    ],
+    "order_amount": 986.22,
+    "order_date_time": "2026-11-05 10:04:23",
+    "payment_method": "FoodiePay Wallet",
+    "order_status": "Delivered",
+    "estimated_delivery_time": "Delivered",
+    "delivery_address": "Flat 12, Gulmohar Residency, Malleshwaram, Bengaluru",
+    "cancellation_reason": null,
+    "cancelled_at": null
+  },
+  {
+    "order_id": "ORD1033",
+    "customer_id": "CUST013",
+    "customer_name": "Suresh Kumar",
+    "restaurant_name": "Spice Route Kitchen",
+    "ordered_items": [
+      {
+        "item_name": "Paneer Tikka",
+        "quantity": 2,
+        "price": 135.88,
+        "subtotal": 271.76
+      }
+    ],
+    "order_amount": 271.76,
+    "order_date_time": "2026-11-03 19:44:23",
+    "payment_method": "Debit Card",
+    "order_status": "Delivered",
+    "estimated_delivery_time": "Delivered",
+    "delivery_address": "88/2, Outer Ring Road, Marathahalli, Bengaluru",
+    "cancellation_reason": null,
+    "cancelled_at": null
+  },
+  {
+    "order_id": "ORD1034",
+    "customer_id": "CUST014",
+    "customer_name": "Tanvi Deshmukh",
+    "restaurant_name": "Biryani Central",
+    "ordered_items": [
+      {
+        "item_name": "Mutton Dum Biryani",
+        "quantity": 2,
+        "price": 330.1,
+        "subtotal": 660.2
+      }
+    ],
+    "order_amount": 660.2,
+    "order_date_time": "2026-11-02 01:54:23",
+    "payment_method": "Credit Card",
+    "order_status": "Delivered",
+    "estimated_delivery_time": "Delivered",
+    "delivery_address": "Penthouse 14, Sky City, Electronic City Phase 1, Bengaluru",
+    "cancellation_reason": null,
+    "cancelled_at": null
+  },
+  {
+    "order_id": "ORD1035",
+    "customer_id": "CUST015",
+    "customer_name": "Manish Tiwari",
+    "restaurant_name": "The Pizza Factory",
+    "ordered_items": [
+      {
+        "item_name": "Farmhouse Veggie Pizza",
+        "quantity": 1,
+        "price": 441.43,
+        "subtotal": 441.43
+      }
+    ],
+    "order_amount": 441.43,
+    "order_date_time": "2026-11-02 21:30:23",
+    "payment_method": "Debit Card",
+    "order_status": "Delivered",
+    "estimated_delivery_time": "Delivered",
+    "delivery_address": "603, Royal Palms, Banashankari 3rd Stage, Bengaluru",
+    "cancellation_reason": null,
+    "cancelled_at": null
+  },
+  {
+    "order_id": "ORD1036",
+    "customer_id": "CUST016",
+    "customer_name": "Ritu Bhatt",
+    "restaurant_name": "Green Bowl Salads",
+    "ordered_items": [
+      {
+        "item_name": "Grilled Caesar Salad",
+        "quantity": 1,
+        "price": 147.31,
+        "subtotal": 147.31
+      },
+      {
+        "item_name": "Fresh Green Smoothie",
+        "quantity": 1,
+        "price": 227.72,
+        "subtotal": 227.72
+      }
+    ],
+    "order_amount": 375.03,
+    "order_date_time": "2026-11-02 14:29:23",
+    "payment_method": "Cash on Delivery",
+    "order_status": "Delivered",
+    "estimated_delivery_time": "Delivered",
+    "delivery_address": "34, 1st Main, Rajajinagar, Bengaluru",
+    "cancellation_reason": null,
+    "cancelled_at": null
+  },
+  {
+    "order_id": "ORD1037",
+    "customer_id": "CUST017",
+    "customer_name": "Arjun Kapoor",
+    "restaurant_name": "Dosa Corner",
+    "ordered_items": [
+      {
+        "item_name": "Idli Vada Combo",
+        "quantity": 1,
+        "price": 170.25,
+        "subtotal": 170.25
+      },
+      {
+        "item_name": "Ghee Roast Dosa",
+        "quantity": 2,
+        "price": 233.45,
+        "subtotal": 466.9
+      }
+    ],
+    "order_amount": 637.15,
+    "order_date_time": "2026-11-05 13:19:23",
+    "payment_method": "FoodiePay Wallet",
+    "order_status": "Delivered",
+    "estimated_delivery_time": "Delivered",
+    "delivery_address": "102, Windmills View, Brookefield, Bengaluru",
+    "cancellation_reason": null,
+    "cancelled_at": null
+  },
+  {
+    "order_id": "ORD1038",
+    "customer_id": "CUST018",
+    "customer_name": "Divya Menon",
+    "restaurant_name": "Dragon Wok Asian Bistro",
+    "ordered_items": [
+      {
+        "item_name": "Spring Rolls",
+        "quantity": 1,
+        "price": 428.13,
+        "subtotal": 428.13
+      },
+      {
+        "item_name": "Veg Fried Rice",
+        "quantity": 2,
+        "price": 405.73,
+        "subtotal": 811.46
+      }
+    ],
+    "order_amount": 1239.59,
+    "order_date_time": "2026-11-04 03:25:23",
+    "payment_method": "UPI",
+    "order_status": "Delivered",
+    "estimated_delivery_time": "Delivered",
+    "delivery_address": "45, Lavelle Road, Shanthala Nagar, Bengaluru",
+    "cancellation_reason": null,
+    "cancelled_at": null
+  },
+  {
+    "order_id": "ORD1039",
+    "customer_id": "CUST019",
+    "customer_name": "Kunal Malhotra",
+    "restaurant_name": "Burger Haven",
+    "ordered_items": [
+      {
+        "item_name": "Onion Rings",
+        "quantity": 2,
+        "price": 246.44,
+        "subtotal": 492.88
+      }
+    ],
+    "order_amount": 492.88,
+    "order_date_time": "2026-11-02 02:09:23",
+    "payment_method": "UPI",
+    "order_status": "Delivered",
+    "estimated_delivery_time": "Delivered",
+    "delivery_address": "22, Richmond Town, Langford Gardens, Bengaluru",
+    "cancellation_reason": null,
+    "cancelled_at": null
+  },
+  {
+    "order_id": "ORD1040",
+    "customer_id": "CUST020",
+    "customer_name": "Shalini Das",
+    "restaurant_name": "Sweet Tooth Desserts",
+    "ordered_items": [
+      {
+        "item_name": "Tiramisu Slice",
+        "quantity": 2,
+        "price": 105.98,
+        "subtotal": 211.96
+      },
+      {
+        "item_name": "Salted Caramel Tart",
+        "quantity": 1,
+        "price": 90.61,
+        "subtotal": 90.61
+      }
+    ],
+    "order_amount": 302.57,
+    "order_date_time": "2026-11-03 08:37:23",
+    "payment_method": "Debit Card",
+    "order_status": "Delivered",
+    "estimated_delivery_time": "Delivered",
+    "delivery_address": "701, Lotus Boulevard, BTM Layout 2nd Stage, Bengaluru",
+    "cancellation_reason": null,
+    "cancelled_at": null
+  },
+  {
+    "order_id": "ORD1041",
+    "customer_id": "CUST001",
+    "customer_name": "Aarav Sharma",
+    "restaurant_name": "Spice Route Kitchen",
+    "ordered_items": [
+      {
+        "item_name": "Dal Makhani",
+        "quantity": 2,
+        "price": 414.02,
+        "subtotal": 828.04
+      },
+      {
+        "item_name": "Butter Chicken",
+        "quantity": 2,
+        "price": 330.08,
+        "subtotal": 660.16
+      },
+      {
+        "item_name": "Jeera Rice",
+        "quantity": 2,
+        "price": 234.86,
+        "subtotal": 469.72
+      }
+    ],
+    "order_amount": 1957.92,
+    "order_date_time": "2026-11-04 15:15:23",
+    "payment_method": "Cash on Delivery",
+    "order_status": "Delivered",
+    "estimated_delivery_time": "Delivered",
+    "delivery_address": "Flat 402, Sunshine Apartments, Indiranagar, Bengaluru",
+    "cancellation_reason": null,
+    "cancelled_at": null
+  },
+  {
+    "order_id": "ORD1042",
+    "customer_id": "CUST002",
+    "customer_name": "Priya Patel",
+    "restaurant_name": "Biryani Central",
+    "ordered_items": [
+      {
+        "item_name": "Mutton Dum Biryani",
+        "quantity": 1,
+        "price": 287.26,
+        "subtotal": 287.26
+      },
+      {
+        "item_name": "Mirchi Ka Salan",
+        "quantity": 1,
+        "price": 199.39,
+        "subtotal": 199.39
+      },
+      {
+        "item_name": "Gulab Jamun",
+        "quantity": 2,
+        "price": 244.76,
+        "subtotal": 489.52
+      }
+    ],
+    "order_amount": 976.17,
+    "order_date_time": "2026-11-02 07:13:23",
+    "payment_method": "Credit Card",
+    "order_status": "Delivered",
+    "estimated_delivery_time": "Delivered",
+    "delivery_address": "B-12, Green Glen Layout, Bellandur, Bengaluru",
+    "cancellation_reason": null,
+    "cancelled_at": null
+  },
+  {
+    "order_id": "ORD1043",
+    "customer_id": "CUST003",
+    "customer_name": "Rahul Verma",
+    "restaurant_name": "The Pizza Factory",
+    "ordered_items": [
+      {
+        "item_name": "Garlic Breadsticks",
+        "quantity": 2,
+        "price": 120.53,
+        "subtotal": 241.06
+      },
+      {
+        "item_name": "Farmhouse Veggie Pizza",
+        "quantity": 1,
+        "price": 123.62,
+        "subtotal": 123.62
+      },
+      {
+        "item_name": "Pepperoni Supreme",
+        "quantity": 1,
+        "price": 332.21,
+        "subtotal": 332.21
+      }
+    ],
+    "order_amount": 696.89,
+    "order_date_time": "2026-11-04 17:40:23",
+    "payment_method": "UPI",
+    "order_status": "Delivered",
+    "estimated_delivery_time": "Delivered",
+    "delivery_address": "15/3, 4th Cross, Koramangala 5th Block, Bengaluru",
+    "cancellation_reason": null,
+    "cancelled_at": null
+  },
+  {
+    "order_id": "ORD1044",
+    "customer_id": "CUST004",
+    "customer_name": "Ananya Iyer",
+    "restaurant_name": "Green Bowl Salads",
+    "ordered_items": [
+      {
+        "item_name": "Fresh Green Smoothie",
+        "quantity": 1,
+        "price": 310.06,
+        "subtotal": 310.06
+      }
+    ],
+    "order_amount": 310.06,
+    "order_date_time": "2026-11-02 07:45:23",
+    "payment_method": "FoodiePay Wallet",
+    "order_status": "Delivered",
+    "estimated_delivery_time": "Delivered",
+    "delivery_address": "Plot 88, Palm Meadows, Whitefield, Bengaluru",
+    "cancellation_reason": null,
+    "cancelled_at": null
+  },
+  {
+    "order_id": "ORD1045",
+    "customer_id": "CUST005",
+    "customer_name": "Rohan Mehta",
+    "restaurant_name": "Dosa Corner",
+    "ordered_items": [
+      {
+        "item_name": "Filter Coffee",
+        "quantity": 1,
+        "price": 267.98,
+        "subtotal": 267.98
+      }
+    ],
+    "order_amount": 267.98,
+    "order_date_time": "2026-11-04 00:57:23",
+    "payment_method": "UPI",
+    "order_status": "Delivered",
+    "estimated_delivery_time": "Delivered",
+    "delivery_address": "Tower C, 1104, Prestige Lakeside, Varthur, Bengaluru",
+    "cancellation_reason": null,
+    "cancelled_at": null
+  },
+  {
+    "order_id": "ORD1046",
+    "customer_id": "CUST006",
+    "customer_name": "Sneha Nair",
+    "restaurant_name": "Dragon Wok Asian Bistro",
+    "ordered_items": [
+      {
+        "item_name": "Dim Sum Platter",
+        "quantity": 2,
+        "price": 168.78,
+        "subtotal": 337.56
+      }
+    ],
+    "order_amount": 337.56,
+    "order_date_time": "2026-11-05 04:26:23",
+    "payment_method": "UPI",
+    "order_status": "Delivered",
+    "estimated_delivery_time": "Delivered",
+    "delivery_address": "House 24, Defence Colony, Domlur, Bengaluru",
+    "cancellation_reason": null,
+    "cancelled_at": null
+  },
+  {
+    "order_id": "ORD1047",
+    "customer_id": "CUST007",
+    "customer_name": "Vikram Joshi",
+    "restaurant_name": "Burger Haven",
+    "ordered_items": [
+      {
+        "item_name": "Crispy Chicken Burger",
+        "quantity": 2,
+        "price": 330.33,
+        "subtotal": 660.66
+      },
+      {
+        "item_name": "Vanilla Milkshake",
+        "quantity": 2,
+        "price": 432.01,
+        "subtotal": 864.02
+      }
+    ],
+    "order_amount": 1524.68,
+    "order_date_time": "2026-11-02 04:13:23",
+    "payment_method": "Credit Card",
+    "order_status": "Delivered",
+    "estimated_delivery_time": "Delivered",
+    "delivery_address": "Villa 9, Silver Oak Enclave, Sarjapur Road, Bengaluru",
+    "cancellation_reason": null,
+    "cancelled_at": null
+  },
+  {
+    "order_id": "ORD1048",
+    "customer_id": "CUST008",
+    "customer_name": "Pooja Sen",
+    "restaurant_name": "Sweet Tooth Desserts",
+    "ordered_items": [
+      {
+        "item_name": "Salted Caramel Tart",
+        "quantity": 2,
+        "price": 360.64,
+        "subtotal": 721.28
+      },
+      {
+        "item_name": "Tiramisu Slice",
+        "quantity": 2,
+        "price": 365.69,
+        "subtotal": 731.38
+      },
+      {
+        "item_name": "Red Velvet Cupcake",
+        "quantity": 2,
+        "price": 315.63,
+        "subtotal": 631.26
+      }
+    ],
+    "order_amount": 2083.92,
+    "order_date_time": "2026-11-02 18:56:23",
+    "payment_method": "Debit Card",
+    "order_status": "Delivered",
+    "estimated_delivery_time": "Delivered",
+    "delivery_address": "Apartment 3A, Lakeview Manor, Ulsoor, Bengaluru",
+    "cancellation_reason": null,
+    "cancelled_at": null
+  },
+  {
+    "order_id": "ORD1049",
+    "customer_id": "CUST009",
+    "customer_name": "Aditya Roy",
+    "restaurant_name": "Spice Route Kitchen",
+    "ordered_items": [
+      {
+        "item_name": "Dal Makhani",
+        "quantity": 1,
+        "price": 210.91,
+        "subtotal": 210.91
+      }
+    ],
+    "order_amount": 210.91,
+    "order_date_time": "2026-11-04 17:27:23",
+    "payment_method": "Cash on Delivery",
+    "order_status": "Delivered",
+    "estimated_delivery_time": "Delivered",
+    "delivery_address": "501, Horizon Heights, HSR Layout Sector 2, Bengaluru",
+    "cancellation_reason": null,
+    "cancelled_at": null
+  },
+  {
+    "order_id": "ORD1050",
+    "customer_id": "CUST010",
+    "customer_name": "Kavita Rao",
+    "restaurant_name": "Biryani Central",
+    "ordered_items": [
+      {
+        "item_name": "Mutton Dum Biryani",
+        "quantity": 2,
+        "price": 239.35,
+        "subtotal": 478.7
+      },
+      {
+        "item_name": "Gulab Jamun",
+        "quantity": 2,
+        "price": 285.34,
+        "subtotal": 570.68
+      },
+      {
+        "item_name": "Hyderabadi Chicken Biryani",
+        "quantity": 2,
+        "price": 112.42,
+        "subtotal": 224.84
+      }
+    ],
+    "order_amount": 1274.22,
+    "order_date_time": "2026-11-02 02:57:23",
+    "payment_method": "UPI",
+    "order_status": "Delivered",
+    "estimated_delivery_time": "Delivered",
+    "delivery_address": "77, Cambridge Road, Halasuru, Bengaluru",
+    "cancellation_reason": null,
+    "cancelled_at": null
+  },
+  {
+    "order_id": "ORD1051",
+    "customer_id": "CUST011",
+    "customer_name": "Deepak Gupta",
+    "restaurant_name": "The Pizza Factory",
+    "ordered_items": [
+      {
+        "item_name": "Garlic Breadsticks",
+        "quantity": 2,
+        "price": 429.39,
+        "subtotal": 858.78
+      },
+      {
+        "item_name": "Choco Lava Cake",
+        "quantity": 2,
+        "price": 361.25,
+        "subtotal": 722.5
+      },
+      {
+        "item_name": "Margherita Pizza",
+        "quantity": 1,
+        "price": 283.76,
+        "subtotal": 283.76
+      }
+    ],
+    "order_amount": 1865.04,
+    "order_date_time": "2026-11-02 14:24:23",
+    "payment_method": "Cash on Delivery",
+    "order_status": "Delivered",
+    "estimated_delivery_time": "Delivered",
+    "delivery_address": "204, Orchid Bloom, JP Nagar 6th Phase, Bengaluru",
+    "cancellation_reason": null,
+    "cancelled_at": null
+  },
+  {
+    "order_id": "ORD1052",
+    "customer_id": "CUST012",
+    "customer_name": "Neha Kulkarni",
+    "restaurant_name": "Green Bowl Salads",
+    "ordered_items": [
+      {
+        "item_name": "Mediterranean Quinoa Bowl",
+        "quantity": 2,
+        "price": 211.01,
+        "subtotal": 422.02
+      },
+      {
+        "item_name": "Grilled Caesar Salad",
+        "quantity": 2,
+        "price": 350.71,
+        "subtotal": 701.42
+      }
+    ],
+    "order_amount": 1123.44,
+    "order_date_time": "2026-11-04 02:07:23",
+    "payment_method": "UPI",
+    "order_status": "Delivered",
+    "estimated_delivery_time": "Delivered",
+    "delivery_address": "Flat 12, Gulmohar Residency, Malleshwaram, Bengaluru",
+    "cancellation_reason": null,
+    "cancelled_at": null
+  },
+  {
+    "order_id": "ORD1053",
+    "customer_id": "CUST013",
+    "customer_name": "Suresh Kumar",
+    "restaurant_name": "Dosa Corner",
+    "ordered_items": [
+      {
+        "item_name": "Upma",
+        "quantity": 2,
+        "price": 120.22,
+        "subtotal": 240.44
+      },
+      {
+        "item_name": "Masala Dosa",
+        "quantity": 2,
+        "price": 138.85,
+        "subtotal": 277.7
+      }
+    ],
+    "order_amount": 518.14,
+    "order_date_time": "2026-11-04 20:25:23",
+    "payment_method": "Cash on Delivery",
+    "order_status": "Delivered",
+    "estimated_delivery_time": "Delivered",
+    "delivery_address": "88/2, Outer Ring Road, Marathahalli, Bengaluru",
+    "cancellation_reason": null,
+    "cancelled_at": null
+  },
+  {
+    "order_id": "ORD1054",
+    "customer_id": "CUST014",
+    "customer_name": "Tanvi Deshmukh",
+    "restaurant_name": "Dragon Wok Asian Bistro",
+    "ordered_items": [
+      {
+        "item_name": "Chili Garlic Noodles",
+        "quantity": 2,
+        "price": 207.66,
+        "subtotal": 415.32
+      },
+      {
+        "item_name": "Dim Sum Platter",
+        "quantity": 2,
+        "price": 190.17,
+        "subtotal": 380.34
+      }
+    ],
+    "order_amount": 795.66,
+    "order_date_time": "2026-11-03 19:11:23",
+    "payment_method": "UPI",
+    "order_status": "Delivered",
+    "estimated_delivery_time": "Delivered",
+    "delivery_address": "Penthouse 14, Sky City, Electronic City Phase 1, Bengaluru",
+    "cancellation_reason": null,
+    "cancelled_at": null
+  },
+  {
+    "order_id": "ORD1055",
+    "customer_id": "CUST015",
+    "customer_name": "Manish Tiwari",
+    "restaurant_name": "Burger Haven",
+    "ordered_items": [
+      {
+        "item_name": "Onion Rings",
+        "quantity": 1,
+        "price": 170.72,
+        "subtotal": 170.72
+      },
+      {
+        "item_name": "Classic Smash Cheeseburger",
+        "quantity": 1,
+        "price": 371.24,
+        "subtotal": 371.24
+      },
+      {
+        "item_name": "Crispy Chicken Burger",
+        "quantity": 1,
+        "price": 361.52,
+        "subtotal": 361.52
+      }
+    ],
+    "order_amount": 903.48,
+    "order_date_time": "2026-11-04 21:02:23",
+    "payment_method": "Credit Card",
+    "order_status": "Delivered",
+    "estimated_delivery_time": "Delivered",
+    "delivery_address": "603, Royal Palms, Banashankari 3rd Stage, Bengaluru",
+    "cancellation_reason": null,
+    "cancelled_at": null
+  }
+]

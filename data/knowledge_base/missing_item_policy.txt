@@ -1,0 +1,26 @@
+# FOODIEHELP MISSING ITEM RESOLUTION POLICY
+Document ID: POL-MIS-004
+Effective Date: January 1, 2026
+Version: 2.0
+
+1. DEFINITION
+A 'Missing Item' incident occurs when one or more products listed in the confirmed order invoice and paid for by the customer are not found inside the sealed delivery package.
+
+2. REPORTING REQUIREMENTS
+- Time Limit: The missing item report must be logged within 24 hours from the delivery timestamp. Reports logged after 24 hours cannot be validated against restaurant dispatch logs and will be rejected.
+- Order Details: The customer must provide the specific Order ID and identify the missing dish/item name(s).
+- Package Condition: The customer must confirm if the restaurant tamper-evident seal was broken or intact upon arrival.
+
+3. RESOLUTION OPTIONS
+When a missing item is reported:
+Option 1: Instant Item Refund (Default)
+- A 100% refund for the cost of the missing item is issued back to the original payment method or FoodiePay Wallet.
+- Pro-rated taxes corresponding to the missing item are included in the refund.
+
+Option 2: Priority Re-order / Redelivery
+- If the restaurant is still open and within operating hours, the customer can choose priority redelivery of the missing item with zero delivery fee.
+
+4. INVESTIGATION & AUDIT
+- Our automated merchant audit records the merchant's packing camera log. Repeat missing item incidents at a specific restaurant trigger a kitchen packing audit.
+- Unsubstantiated repeated claims by an account may require manual support verification.
+
