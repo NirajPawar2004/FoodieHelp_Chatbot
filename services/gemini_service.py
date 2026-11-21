@@ -84,35 +84,31 @@ class GeminiService:
                 "error": None
             }
 
-        except APIError as e:
-            # Fallback to gemini-3.5-flash-lite if primary model is unavailable or rate-limited
-            if self._client and self.model != "gemini-3.5-flash-lite":
-                try:
-                    response = self._client.models.generate_content(
-                        model="gemini-3.5-flash-lite",
-                        contents=prompt,
-                        config=config,
-                    )
-                    text = response.text or ""
-                    return {
-                        "success": True,
-                        "content": text.strip(),
-                        "model": "gemini-3.5-flash-lite",
-                        "error": None
-                    }
-                except Exception:
-                    pass
+        except Exception as e:
+            # Fallback to secondary models if primary model is unavailable or rate-limited
+            fallback_models = ["gemini-3.5-flash-lite", "gemini-3.5-flash"]
+            for fb_model in fallback_models:
+                if self._client and fb_model != self.model:
+                    try:
+                        response = self._client.models.generate_content(
+                            model=fb_model,
+                            contents=prompt,
+                            config=config,
+                        )
+                        text = response.text or ""
+                        if text:
+                            return {
+                                "success": True,
+                                "content": text.strip(),
+                                "model": fb_model,
+                                "error": None
+                            }
+                    except Exception:
+                        continue
 
             return {
                 "success": False,
                 "content": f"⚠️ **Gemini API Error**: {str(e)}",
-                "model": self.model,
-                "error": str(e)
-            }
-        except Exception as e:
-            return {
-                "success": False,
-                "content": f"⚠️ **Unexpected Error generating response**: {str(e)}",
                 "model": self.model,
                 "error": str(e)
             }
