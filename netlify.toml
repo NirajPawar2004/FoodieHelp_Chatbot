@@ -1,13 +1,12 @@
 [build]
-  command = "pip install -r requirements.txt"
-  publish = "templates"
+  publish = "public"
+  functions = "netlify/functions"
 
 [build.environment]
   PYTHON_VERSION = "3.11"
   PYTHONIOENCODING = "utf-8"
 
 [functions]
-  directory = "netlify/functions"
   included_files = [
     "data/**",
     "templates/**",
@@ -24,8 +23,9 @@
   from = "/api/*"
   to = "/.netlify/functions/api/:splat"
   status = 200
+  force = true
 
 [[redirects]]
   from = "/*"
-  to = "/.netlify/functions/api"
+  to = "/index.html"
   status = 200
