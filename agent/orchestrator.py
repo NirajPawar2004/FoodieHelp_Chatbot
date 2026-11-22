@@ -498,8 +498,7 @@ class AgentOrchestrator:
                 "refund eligibility, order cancellations, delivery terms, packaging/tamper seal standards, and support policies.\n"
                 "If the user asks about ANY external, unrelated topic (such as metals, science, mathematics, history, politics, "
                 "general trivia, coding, or non-food subjects like 'What is metals?'):\n"
-                "You MUST politely and warmly decline, explaining that you only assist with FoodieHelp food orders, "
-                "restaurants, refunds, cancellations, and delivery policies.\n"
+                "You MUST politely state that as FoodieHelp AI, you are dedicated exclusively to food, restaurants, orders, refunds, and delivery policies, and cannot assist with external topics.\n"
                 "Do NOT answer the external question. Guide the user back to how you can assist them with food, restaurants, refunds, or policies.\n"
                 "Never mention internal document filenames, chunk IDs, or policy rule codes."
             )
