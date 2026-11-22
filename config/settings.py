@@ -19,12 +19,21 @@ load_dotenv(dotenv_path=BASE_DIR / ".env", override=False)
 class Settings:
     """Application-wide settings with fallback defaults."""
 
+    # Serverless / Vercel detection
+    IS_VERCEL: bool = os.getenv("VERCEL") == "1" or os.getenv("AWS_LAMBDA_FUNCTION_NAME") is not None
+
     # Paths
     BASE_DIR: Path = BASE_DIR
     DATA_DIR: Path = BASE_DIR / "data"
     KNOWLEDGE_BASE_DIR: Path = BASE_DIR / os.getenv("KNOWLEDGE_BASE_DIR", "data/knowledge_base")
-    CHROMA_PERSIST_DIR: Path = BASE_DIR / os.getenv("CHROMA_PERSIST_DIR", "data/chroma_db")
-    DATABASE_PATH: Path = BASE_DIR / os.getenv("DATABASE_PATH", "data/foodiehelp.db")
+    PRECOMPUTED_INDEX_FILE: Path = DATA_DIR / "knowledge_base_index.json"
+
+    if IS_VERCEL:
+        DATABASE_PATH: Path = Path("/tmp/foodiehelp.db")
+        CHROMA_PERSIST_DIR: Path = Path("/tmp/chroma_db")
+    else:
+        DATABASE_PATH: Path = BASE_DIR / os.getenv("DATABASE_PATH", "data/foodiehelp.db")
+        CHROMA_PERSIST_DIR: Path = BASE_DIR / os.getenv("CHROMA_PERSIST_DIR", "data/chroma_db")
 
     SAMPLE_ORDERS_FILE: Path = DATA_DIR / "sample_orders.json"
     SAMPLE_CUSTOMERS_FILE: Path = DATA_DIR / "sample_customers.json"
