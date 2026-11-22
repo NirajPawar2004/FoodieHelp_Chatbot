@@ -62,7 +62,7 @@ class VectorStore:
         self.collection = None
 
         # Only initialize heavy local SentenceTransformer + ChromaDB if available and not in serverless mode
-        if chromadb is not None and SentenceTransformer is not None and not settings.IS_VERCEL:
+        if chromadb is not None and SentenceTransformer is not None and not getattr(settings, "IS_SERVERLESS", False):
             try:
                 self.persist_dir.mkdir(parents=True, exist_ok=True)
                 print(f"[VectorStore] Loading embedding model: {self.model_name}...")

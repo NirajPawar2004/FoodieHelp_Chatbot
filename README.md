@@ -271,24 +271,34 @@ pytest -v tests/
 
 ## 9. Cloud Deployment Guide
 
-### Option 1: Deploy Directly to Vercel (Recommended 1-Click Serverless Deploy)
-The repository is fully configured with an official Vercel serverless integration ([`api/index.py`](api/index.py) and [`vercel.json`](vercel.json)):
-- **Under 35 MB Bundle:** Heavy PyTorch and CUDA binaries are replaced with a high-speed Gemini embedding pipeline and precomputed semantic indexing ([`data/knowledge_base_index.json`](data/knowledge_base_index.json)), easily fitting under Vercel's strict 250 MB ceiling.
-- **Serverless Ephemeral Storage:** Automatically switches SQLite database operations to `/tmp/foodiehelp.db` in serverless environments.
-- **Sub-Second Cold Starts:** Near-instantaneous response times with zero cold-start lag.
+### Option 1: Deploy to Netlify (1-Click Serverless Deploy)
+The repository is fully configured for **Netlify Functions** ([`netlify.toml`](netlify.toml) and [`netlify/functions/api.py`](netlify/functions/api.py)):
+- **Mangum ASGI Bridge:** High-performance ASGI handler translating Netlify serverless events to FastAPI.
+- **Serverless RAG & Dynamic SQLite:** Fast, sub-second Gemini vector search ([`data/knowledge_base_index.json`](data/knowledge_base_index.json)) and automatic `/tmp` SQLite database operations.
+- **Asset Bundling:** [`netlify.toml`](netlify.toml) includes templates, datasets, and knowledge base files in the lambda package automatically.
 
-**Steps to Deploy on Vercel:**
+**Steps to Deploy on Netlify:**
 1. Push your repository to GitHub: [NirajPawar2004/FoodieHelp_Chatbot](https://github.com/NirajPawar2004/FoodieHelp_Chatbot).
-2. Go to the [Vercel Dashboard](https://vercel.com/new) and click **Add New...** → **Project**.
-3. Import your repository **`FoodieHelp_Chatbot`**.
-4. In the **Environment Variables** section, add:
+2. Open the [Netlify Dashboard](https://app.netlify.com/) and click **Add new site** → **Import an existing project**.
+3. Select **GitHub** and choose repository **`FoodieHelp_Chatbot`**.
+4. Netlify automatically detects [`netlify.toml`](netlify.toml) (Build command: `pip install -r requirements.txt`, Publish directory: `templates`).
+5. Under **Environment variables**, click **Add a variable** and configure:
    - `GEMINI_API_KEY`: `your_gemini_api_key`
    - `GEMINI_MODEL`: `gemini-3.5-flash-lite`
-5. Click **Deploy**. Vercel will build and provision your live public HTTPS URL in ~30 seconds!
+   - `PYTHONIOENCODING`: `utf-8`
+6. Click **Deploy FoodieHelp_Chatbot**. Netlify will build and deploy your site to `https://<your-app>.netlify.app` in under 60 seconds!
 
 ---
 
-### Option 2: Deploy to Render.com (Continuous Web Service)
+### Option 2: Deploy to Vercel (1-Click Serverless Deploy)
+The repository is also configured for **Vercel Serverless Functions** ([`api/index.py`](api/index.py) and [`vercel.json`](vercel.json)):
+1. Go to [Vercel Dashboard](https://vercel.com/new) and import `FoodieHelp_Chatbot`.
+2. Add environment variables: `GEMINI_API_KEY` and `GEMINI_MODEL`.
+3. Click **Deploy**.
+
+---
+
+### Option 3: Deploy to Render.com (Continuous Web Service)
 Render supports continuous Python web services and Docker containers with zero code modification.
 
 1. Push your code to GitHub.

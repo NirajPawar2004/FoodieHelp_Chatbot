@@ -19,8 +19,13 @@ load_dotenv(dotenv_path=BASE_DIR / ".env", override=False)
 class Settings:
     """Application-wide settings with fallback defaults."""
 
-    # Serverless / Vercel detection
-    IS_VERCEL: bool = os.getenv("VERCEL") == "1" or os.getenv("AWS_LAMBDA_FUNCTION_NAME") is not None
+    # Serverless (Netlify, Vercel, AWS Lambda) detection
+    IS_SERVERLESS: bool = (
+        os.getenv("VERCEL") == "1"
+        or os.getenv("NETLIFY") == "true"
+        or os.getenv("AWS_LAMBDA_FUNCTION_NAME") is not None
+    )
+    IS_VERCEL: bool = IS_SERVERLESS
 
     # Paths
     BASE_DIR: Path = BASE_DIR
@@ -28,7 +33,7 @@ class Settings:
     KNOWLEDGE_BASE_DIR: Path = BASE_DIR / os.getenv("KNOWLEDGE_BASE_DIR", "data/knowledge_base")
     PRECOMPUTED_INDEX_FILE: Path = DATA_DIR / "knowledge_base_index.json"
 
-    if IS_VERCEL:
+    if IS_SERVERLESS:
         DATABASE_PATH: Path = Path("/tmp/foodiehelp.db")
         CHROMA_PERSIST_DIR: Path = Path("/tmp/chroma_db")
     else:
