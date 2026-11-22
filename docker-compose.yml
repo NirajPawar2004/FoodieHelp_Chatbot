@@ -1,0 +1,12 @@
+services:
+  foodiehelp:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+      - GEMINI_MODEL=gemini-3.5-flash-lite
+      - PORT=8000
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

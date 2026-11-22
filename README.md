@@ -239,7 +239,7 @@ pip install -r requirements.txt
 2. Open `.env` and set:
    ```ini
    GEMINI_API_KEY=your_key_here
-   GEMINI_MODEL=gemini-3.5-flash
+   GEMINI_MODEL=gemini-3.5-flash-lite
    ```
 
 ### Step 5: Launch the Application
@@ -269,7 +269,67 @@ pytest -v tests/
 
 ---
 
-## 9. Example Prompts to Try
+## 9. Cloud Deployment Guide
+
+### Why Netlify and Vercel Fail for this Architecture
+If you attempt to deploy this project directly to **Netlify** or **Vercel**, the deployment will fail due to standard serverless constraints:
+1. **Serverless Bundle Size Limit (250 MB):** Installing `sentence-transformers` automatically pulls PyTorch (`torch`), which is over 1.2 GB uncompressed. Vercel and Netlify enforce a strict 250 MB ceiling on serverless function bundles.
+2. **Ephemeral Read-Only Filesystem:** Serverless functions execute in stateless containers with read-only filesystems. Embedded SQLite (`data/foodiehelp.db`) and ChromaDB vector files (`data/chroma_db/`) require persistent write permissions.
+3. **No Persistent Background Process:** FastAPI and Uvicorn require a continuous event loop (`uvicorn app:app`), whereas Netlify and Vercel are built for short-lived HTTP function triggers.
+
+---
+
+### Recommended Cloud Platforms (100% Compatible & Free Tiers)
+
+#### Option 1: Deploy to Render.com (Recommended — 3 Clicks)
+Render supports continuous Python web services and Docker containers with zero code modification.
+
+1. Push your code to GitHub.
+2. Go to [Render Dashboard](https://dashboard.render.com/) and click **New +** → **Web Service**.
+3. Select your repository `FoodieHelp_Chatbot`.
+4. Configure:
+   - **Environment:** `Python 3`
+   - **Build Command:** `pip install --no-cache-dir torch --index-url https://download.pytorch.org/whl/cpu && pip install -r requirements.txt`
+   - **Start Command:** `uvicorn app:app --host 0.0.0.0 --port $PORT`
+5. Add Environment Variables:
+   - `GEMINI_API_KEY`: *(Your Google AI Studio Key)*
+   - `GEMINI_MODEL`: `gemini-3.5-flash-lite`
+   - `PYTHONIOENCODING`: `utf-8`
+6. Click **Deploy Web Service**!
+
+*(Alternatively, use the included [`render.yaml`](render.yaml) blueprint).*
+
+---
+
+#### Option 2: Deploy to Railway.app (1-Click)
+1. Go to [Railway.app](https://railway.app/) and click **New Project** → **Deploy from GitHub repo**.
+2. Select your repository. Railway automatically reads [`Procfile`](Procfile) and [`requirements.txt`].
+3. Under **Variables**, add:
+   - `GEMINI_API_KEY`: *(Your key)*
+   - `GEMINI_MODEL`: `gemini-3.5-flash-lite`
+4. Railway will deploy and provide a live public HTTPS domain.
+
+---
+
+#### Option 3: Deploy via Docker Container
+The repository includes an optimized [`Dockerfile`](Dockerfile) with CPU-only PyTorch wheels (reducing image size from 3.5GB down to ~600MB):
+
+```bash
+# Build the Docker image
+docker build -t foodiehelp-ai .
+
+# Run container locally on port 8000
+docker run -d -p 8000:8000 -e GEMINI_API_KEY="your_api_key" foodiehelp-ai
+```
+
+Or using Docker Compose:
+```bash
+docker compose up -d
+```
+
+---
+
+## 10. Example Prompts to Try
 
 - *"Where is my order ORD1001?"*
 - *"Can I cancel an order in Preparing stage?"*
